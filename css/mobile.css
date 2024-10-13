@@ -1,0 +1,47 @@
+/* 480 - 320px */
+
+@media (max-width : 375px){
+    header{
+        padding: 6px 14px;
+    }
+    .header_burger{
+        display: block;
+    }
+    .header_nav{
+        display: none;
+    }
+    .section1{
+        padding-inline: 14px;
+        height: 438px;
+    }
+    .section1_h{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .section1_p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .section2{
+        padding: 32px 14px;
+    }
+    .card_section{
+        flex-wrap: wrap;
+    }
+    .section3 {
+        padding: 32px 14px;
+    }
+
+    .booking_article{
+        flex: 1 1 347px;
+    }
+
+    .article_display1{
+        display: none;
+    }
+
+    .article_display2{
+        display: none;
+    }
+}

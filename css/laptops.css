@@ -1,0 +1,57 @@
+/* 1439 - 769px */
+
+@media(max-width:1300px){
+    header{
+        padding: 6px 57px;
+    }
+    .section1{
+        padding-inline: 57px;
+    }
+    .section2{
+        padding: 48px 57px;
+    }
+    .card_article{
+        width: 382px;
+    }
+    .section3 {
+        padding: 48px 57px;
+    }
+    .article_display1{
+        display: none;
+    }
+
+}
+
+
+@media(max-width:834px){
+    header{
+        padding: 6px 46px;
+    }
+    .section1{
+        padding-inline: 46px;
+        height: 438px;
+    }
+    .section2{
+        padding: 40px 46px;
+    }
+    .card_article{
+        width: 361px;
+    }
+
+    .article3{
+        display: none;
+    }
+
+    .section3 {
+        padding: 40px 46px;
+    }
+
+    .booking_article{
+        flex: 1 1 361px;
+    }
+
+    .article_display1{
+        display: none;
+    }
+    
+}

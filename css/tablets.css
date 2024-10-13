@@ -1,0 +1,44 @@
+/* 768 - 481px */
+
+@media(max-width:710px){
+    header{
+        padding: 6px 38px;
+    }
+    .header_burger{
+        display: block;
+    }
+    .header_nav{
+        display: none;
+    }
+    .section1{
+        padding-inline: 38px;
+        height: 438px;
+    }
+    .section2{
+        padding: 40px 38px;
+    }
+    article{
+        width: 307px;
+    }
+
+    .article3{
+        display: none;
+    }
+
+    .section3 {
+        padding: 40px 38px;
+    }
+
+    .booking_article{
+        flex: 1 1 361px;
+    }
+
+    .article_display1{
+        display: none;
+    }
+    
+    .article_display2{
+        display: none;
+    }
+
+}

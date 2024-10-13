@@ -1,0 +1,232 @@
+/* container */
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+
+header{
+    background-color:  #FA793C;
+    padding: 6px 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: inherit;
+
+}
+.header_burger{
+    display: none;
+}
+
+.logo_link{
+    width: 175px;
+    height: 38px;
+}
+.logo_img{
+    width: 100%;
+    height: 100%;
+}
+
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.header_ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+a{
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.fa-circle-user{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+/* section1 */
+.section1{
+   height: 550px;
+   background-image: url(../images/cover.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   padding-inline: 82px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.section1_h{
+    font-family: Kanit;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.section1_p{
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #D9D9D9;
+}
+
+/* section2 */
+
+.section2{
+    /* height: 469px; */
+    background-color: #FA793C;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 82px;
+    justify-content: center;
+    gap: 34px;
+}
+
+.card_section{
+    /* width: 80%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: center;
+}
+
+.section2_h{
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card_article{
+    width: 412px;
+    background-color: #000000;
+}
+
+.card_article:hover{
+    box-shadow: 
+            0 0 5px black,
+            0 0 10px black,
+            0 0 40px black;
+}
+
+.article_img{
+    width: 100%;
+    object-fit: cover;
+}
+.article_section{
+    /* background-color: #FA793C; */
+    width: 90%;
+    gap: 8px;
+    margin: 16px;
+}
+.card_h{
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.card_p{
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #D9D9D9;
+}
+
+/* section3 */
+
+.section3{
+    background-color:  #000000;
+    padding: 72px 82px;
+
+}
+
+.booking_h{
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #FA793C;
+    margin-bottom: 34px;
+}
+
+.booking_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.booking_article{
+    /* width: 412px; */
+    border: 2px solid #FA793C;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1 1 412px;
+}
+
+.booking_article:hover{
+        box-shadow: 
+            0 0 5px #FA793C,
+            0 0 10px #FA793C,
+            0 0 40px #FA793C;
+    
+}
+
+.booking_img{
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+}
+
+.tour_name{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #FA793C;
+    margin-top: 16px;
+}
+
+.pricing_section{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.price{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #B53B1B;
+}
+
+.fa-cart-plus{
+    font-size: 30px;
+    color: #FA793C;
+}
+
+/* footer */
+footer{
+    height: 100px;
+    padding: 31px 0px;
+    background-color: #FA793C;
+    display: flex;
+    justify-content: center;
+}
